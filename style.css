@@ -1,0 +1,206 @@
+
+*{
+     margin: 0;
+     padding:0;
+     box-sizing: border-box;
+     
+}
+
+body {
+     background-color: lightblue;
+     color: black;
+     font-family: helvetica;
+     }
+ .him{
+     text-align: center;
+     margin-top: 100px;
+    
+     }
+
+.imh {
+     width:250px ;
+    height:250px ;
+    border-radius:250px ;
+    margin:15px;
+    padding: 5px;
+    }
+h1 {
+     text-align: center;
+     font-size: 60px;
+     
+     
+   }
+   
+     .inb{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin: 100px 20px;
+        
+
+     }
+     .red {
+          border-radius: 0px 45px 0px 45px;
+          background: lightcoral;  
+          padding: 30px;
+          height: 300px;
+          width: 400px;
+          border: solid;
+          font-weight: bold;
+          font-size: 20px;
+           }
+     .blue {
+          border-radius: 0px 45px 0px 45px;
+          background: rgb(151, 180, 224);
+          padding: 30px;
+          height: 300px;
+          width: 400px;
+          border: solid;
+          font-weight: bold;
+          font-size: 20px; 
+           }
+     h2{
+        margin: 100px 40px;
+        background: aliceblue;
+        padding: 10px 0 19px 0px;
+        border-radius:20px 0 20px 0;
+        width: 60%;
+        height: 80%;
+        text-align: center;
+        }  
+        
+ .home{ 
+        border-radius: 10px;
+        height: 100px;
+        width: auto;
+        background: rgb(4, 34, 65) ;
+        
+        display: flex;
+        align-items: center;
+        margin-bottom: 110px;
+        font-weight: bold;
+     }
+    .ahome{  color: aliceblue;
+         text-decoration: none;
+         padding: 50px 20px;
+}
+
+
+.h2fo{  margin: 120px 0px 0px 20px;
+     background: aliceblue;
+     padding: 25px; 
+     border-radius:0px 20px 0px 20px;
+     width: 90%;
+     
+     
+     
+     flex-wrap: wrap;
+      }
+.h2fr{ margin: -10px 20px 0px 0px;
+     background: rgb(218, 68, 68);
+     padding: 25px; 
+     border-radius:20px 0 20px 0;
+     width: 90%;
+     
+     
+     float: right;
+     }
+  .h{  margin: 180px 20px 60px 20px;
+        width: 200px;
+        
+        padding: 10px;
+        
+        text-align: center;
+      }
+    
+      .head1{ margin:20px 0 20px 90px ;
+
+       }
+      .bi{
+           width: 95px;
+           height:40px;
+           background: linear-gradient(25deg,#4444fa,rgb(166, 166, 252));
+           font-weight: bold;
+           text-align: center;
+           border-radius:10px;
+           border: none;
+           margin-left: 45px;
+           margin-bottom:50px ;
+          }
+     footer {
+          
+          background-color : lightcyan;
+          width: auto;
+          
+           
+           }
+       .h4i{ 
+             padding: 20px 30px;
+             }
+          .pff{
+          font-style:italic;
+          font-size: small;
+          display: flex;
+          align-items: flex-end;
+          justify-content:center;
+          padding: 17px;
+           }
+        .af{ color: black;
+           text-decoration: none;
+          padding: 15px;
+          text-align: center;
+          margin:5px;
+          background: linear-gradient(25deg,#4444fa,rgb(166, 166, 252));
+          border-radius: 40px;
+          
+        } 
+    .ih {
+         display: flex;
+         justify-content:center;
+         align-items: flex-start;
+         font-size: small;
+        }
+
+          
+         
+         .container{
+              border: 2px solid;
+              display: flex;
+              flex-direction: row;
+              background:rgb(0, 0, 255);
+              margin-bottom:100px;
+              display: block;
+              margin-right: auto;
+              margin-left: auto;
+              width: 95%;
+              height: 80%;
+              }
+  .container, .item{
+       border-radius: 20px;
+              }            
+         .item{
+               margin: 8px;
+              background: linear-gradient(rgb(214, 214, 252), rgb(163, 245, 245));
+              padding: 15px;
+              
+              font-size: larger;
+          }
+          .imi{display: flex;
+               align-items: center;
+              background: linear-gradient(85deg,pink,plum);
+              
+              border-radius: 20px;
+              width: 95%;
+              justify-content: center;
+              margin-right: auto;
+              margin-left: auto;
+              text-align: center;
+          }
+          .imii{transform: rotate(-8deg);
+               padding: 10px;
+               border-radius: 15%;
+               height: 125px;
+               margin: 15px 8px;
+               }
+          
+
